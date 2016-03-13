@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+//多指变量
+//$px: 5px 10px, 20px 30px;
+
+//list
+$linkColor: #08c #333 !default;
+
+a {
+  color: nth($linkColor, 1);
+
+  &:hover {
+    color: nth($linkColor, 2);
+  }
+}
+
+//map
+$headings: (h1: 2em, h2: 1.5em, h3: 1.2em);
+@each $header, $size in $headings {
+  #{$header} {
+    font-size: $size;
+  }
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+//属性嵌套
+#top_nav {
+  line-height: 40px;
+  text-transform: capitalize;
+  background-color: #333;
+
+  li {
+    float: left;
+  }
+  a {
+    display: block;
+    padding: 0 10px;
+    color: #ffffff;
+
+    &:hover {
+      color: #dddddd;
+    }
+  }
+}
+

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*
+  继承
+  sass中，选择器继承可以让选择器继承另一个选择器的所有样式，并联合声明。
+  使用选择器的继承，要使用关键词@extend，后面紧跟需要继承的选择器。
+*/
+h1, .speaker {
+  border: 4px solid #ff9aa9; }
+
+.speaker {
+  border-width: 2px; }
+
+/*
+  占位选择器%
+  从sass 3.2.0以后就可以定义占位选择器%。
+  这种选择器的优势在于：如果不调用则不会有任何多余的css文件，
+  避免了以前在一些基础的文件中预定义了很多基础的样式，
+  然后实际应用中不管是否使用了@extend去继承相应的样式，
+  都会解析出来所有的样式。占位选择器以%标识定义，通过@extend调用。
+*/
+#header h1, #header .speaker, .ir {
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+#header h1, #header .speaker {
+  width: 300px; }
+
+/*# sourceMappingURL=lesson6.css.map */

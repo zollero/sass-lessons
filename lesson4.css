@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*属性嵌套*/
+.fakeshadow {
+  boder-style: solid;
+  boder-left-width: 4px;
+  boder-left-color: #888;
+  boder-right-width: 2px;
+  boder-right-color: #ccc; }
+
+/* @at-root 属性 */
+.parent-1 {
+  color: #f00; }
+  .parent-1 .child {
+    width: 100px; }
+
+.parent-2 {
+  color: #ff0000; }
+  .child {
+    width: 200px; }
+
+.parent-3 {
+  background: #f00; }
+  .child1 {
+    width: 300px; }
+
+  .child2 {
+    width: 400px; }
+
+/*# sourceMappingURL=lesson4.css.map */

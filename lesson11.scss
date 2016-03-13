@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/*
+  for循环
+  for循环有两种形式，分别为：
+    @for $var from <start> through <end>和@for $var from <start> to <end>。
+  $i表示变量，start表示起始值，end表示结束值，
+  这两个的区别是关键字through表示包括end这个数，而to则不包括end这个数。
+*/
+/*
+  from 1 through 3
+*/
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    width: 2em * $i;
+  }
+}
+/*
+  from 1 to 3
+*/
+@for $i from 1 to 3 {
+  .item2-#{$i} {
+    width: 2em * $i;
+  }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAWA,sBAAsB;AACtB,IAAK;EACJ,SAAS,EAVC,IAAI;EAWd,WAAW,EAVK,CAAC;EAWjB,IAAI,EAAE,QAAqC;;AAI5C,WAA4B;EAC3B,UAA0B,EAAE,cAAc",
+"sources": ["lesson1.scss"],
+"names": [],
+"file": "lesson1.css"
+}

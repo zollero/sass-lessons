@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+/*
+  三目运算
+  语法为：if($condition, $if_true, $if_false) 。
+  三个参数分别表示：条件，条件为真的值，条件为假的值。
+*/
+//if(true, 1px, 2px) => 1px
+//if(false, 1px, 2px) => 2px

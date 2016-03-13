@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*
+  条件判断及循环
+  @if可一个条件单独使用，也可以和@else结合多条件使用
+*/
+.ib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+p {
+  color: green; }
+
+/*# sourceMappingURL=lesson9.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAQA,CAAE;EACA,KAAK,EAHK,IAAI;EAKd,OAAQ;IACN,KAAK,EANQ,IAAI;;AAanB,EAAW;EACT,SAAS,EAHG,GAAG;;AAEjB,EAAW;EACT,SAAS,EAHY,KAAK;;AAE5B,EAAW;EACT,SAAS,EAHuB,KAAK",
+"sources": ["lesson2.scss"],
+"names": [],
+"file": "lesson2.css"
+}

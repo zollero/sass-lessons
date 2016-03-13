@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAEA;;;;EAIE;AACF,YAAG;EACD,MAAM,EAAE,iBAAiB;;AAE3B,QAAS;EAEP,YAAY,EAAE,GAAG;;AAGnB;;;;;;;EAOE;AACF,iCAAI;EACF,KAAK,EAAE,WAAW;EAClB,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,WAAW;EAC7B,MAAM,EAAE,CAAC;;AAiBT,4BAAG;EAED,KAAK,EAAE,KAAK",
+"sources": ["lesson6.scss"],
+"names": [],
+"file": "lesson6.css"
+}

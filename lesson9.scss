@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/*
+  条件判断及循环
+  @if可一个条件单独使用，也可以和@else结合多条件使用
+*/
+$lte7: true;
+$type: monster;
+.ib {
+  display: inline-block;
+  @if $lte7 {
+    *display: inline;
+    *zoom: 1;
+  }
+}
+p {
+  @if($type == ocean) {
+    color: blue;
+  } @else if($type == matador) {
+    color: red;
+  } @else if($type == monster) {
+    color: green;
+  } @else {
+    color: black;
+  }
+}

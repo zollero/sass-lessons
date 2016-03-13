@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAEA;;;EAGE;AAGF,GAAI;EACF,OAAO,EAAE,YAAY;EAEnB,QAAQ,EAAE,MAAM;EAChB,KAAK,EAAE,CAAC;;AAGZ,CAAE;EAME,KAAK,EAAE,KAAK",
+"sources": ["lesson9.scss"],
+"names": [],
+"file": "lesson9.css"
+}

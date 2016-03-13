@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+//变量
+$fontSize: 12px;
+$baseLineHeight: 2;
+$baseLineHeight: 1.5!default;
+$baseFontSize: 12px !default;
+
+//特殊变量
+$borderDirection: top !default;
+
+/* This is a comment*/
+body {
+	font-size: $fontSize;
+	line-height: $baseLineHeight;
+	font: #{$baseFontSize} / #{$baseLineHeight};
+}
+
+//应用于class和属性
+.border-#{$borderDirection} {
+	border-#{$borderDirection}: 1px solid #ccc;
+}

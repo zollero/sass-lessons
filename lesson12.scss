@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+  @each 循环
+  语法为：@each $var in <list or map>。
+  其中$var表示变量，而list和map表示list类型数据和map类型数据。
+  sass 3.3.0新加入了多字段循环和map数据循环。
+*/
+
+/*
+  单个字段list数据循环
+*/
+$animal-list: puma, sea-slug, egret, salamander;
+@each $animal in $animal-list {
+  .#{animal}-icon {
+    background-image: url('/images/#{animal}.png');
+  }
+}
+
+/*
+  多个字段list数据循环
+*/
+$animal-data: (puma, black, default), (sea-slug, blue, pointer), (egret, white, move);
+@each $animal, $color, $cursor in $animal-data {
+  .#{$animal}-icon {
+    background-image: url('/images/#{$animal}.png');
+    border: 2px solid $color;
+    cursor: $cursor;
+  }
+}
+
+/*
+  多个字段map数据循环
+*/
+$headings: (h1: 2em, h2: 1.5em, h3: 1.2em);
+@each $header, $size in $headings {
+  #{$header} {
+    font-size: $size;
+  }
+}
+
+
